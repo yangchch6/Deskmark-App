@@ -1,0 +1,39 @@
+/*
+ * @file style for component ItemEditor
+ */
+
+.item-editor-component {
+  padding: 10px;
+  border-top: 1px solid #efefef;
+  position: relative;
+  margin-top: 10px;
+}
+.item-editor-component .control-area {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.item-editor-component .control-area button {
+  display: inline-block;
+  margin: 0 10px;
+}
+.item-editor-component .edit-area input, .item-editor-component .edit-area textarea {
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  display: block;
+}
+.item-editor-component .edit-area input {
+  padding: 0 10px;
+  line-height: 40px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.item-editor-component .edit-area textarea {
+  padding: 10px;
+  width: 60%;
+  line-height: 1.4em;
+  height: 220px;
+}
